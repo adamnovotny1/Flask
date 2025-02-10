@@ -18,9 +18,9 @@ def alfa():
     return render_template('alfa.html')
 
 #nastavení route pro azbuka.html
-@app.route('/azbuka')
+@app.route('/azb')
 def azb():
-    return render_template('azbuka.html')
+    return render_template('azb.html')
 
 #nastavení route pro heb.html
 @app.route('/heb')
