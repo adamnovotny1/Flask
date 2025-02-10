@@ -1,30 +1,21 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{url_for('static',filename="css/style.css")}}">
-    <title>Domovská stránka</title>
-</head>
-<body>
-    <nav class="menu">
-        <ul>
-            <li><a href="{{ url_for('index') }}">Domů</a></li>
-            <li><a href="{{ url_for('contact') }}">Kontakt</a></li>
-            <li><a href="{{ url_for('user', username='adam') }}">Uživatel</a></li>
-        </ul>
-    </nav>
-    <div class="content">
-        <h1>Hlavní stránka</h1>
+{% extends 'base.html' %}
+{% block title %}
+Index
+{% endblock %}
+{% block content %}
+    <h1>Hlavní stránka</h1>
     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quisque porta. Praesent in mauris eu tortor porttitor
-    accumsan. Mauris tincidunt sem sed arcu. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor.
-    Phasellus faucibus molestie nisl. Nullam eget nisl. Integer imperdiet lectus quis justo. Aenean fermentum risus id
-    tortor. Nam sed tellus id magna elementum tincidunt. Curabitur vitae diam non enim vestibulum interdum. Nulla turpis
-    magna, cursus sit amet, suscipit a, interdum id, felis. Aliquam in lorem sit amet leo accumsan lacinia. Praesent in
-    mauris eu tortor porttitor accumsan. Etiam commodo dui eget wisi. Sed ac dolor sit amet purus malesuada congue.
-    Maecenas libero. Pellentesque sapien. Etiam commodo dui eget wisi. Nullam rhoncus aliquam metus.</p>
-    </div>
+        accumsan. Mauris tincidunt sem sed arcu. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et,
+        dolor.
+        Phasellus faucibus molestie nisl. Nullam eget nisl. Integer imperdiet lectus quis justo. Aenean fermentum risus
+        id
+        tortor. Nam sed tellus id magna elementum tincidunt. Curabitur vitae diam non enim vestibulum interdum. Nulla
+        turpis
+        magna, cursus sit amet, suscipit a, interdum id, felis. Aliquam in lorem sit amet leo accumsan lacinia. Praesent
+        in
+        mauris eu tortor porttitor accumsan. Etiam commodo dui eget wisi. Sed ac dolor sit amet purus malesuada congue.
+        Maecenas libero. Pellentesque sapien. Etiam commodo dui eget wisi. Nullam rhoncus aliquam metus.</p>
+
+{% endblock %}
 
 
-</body>
-</html>
