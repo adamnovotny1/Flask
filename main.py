@@ -2,24 +2,34 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-
+#nastavení route pro index.html
 @app.route('/')
 def index():
     return render_template('index.html')
 
-@app.route('/test')
-def test():
-    return render_template('test.html')
+#nastavení route pro abc.html
+@app.route('/abc')
+def abeceda():
+    return render_template('abc.html')
 
+#nastavení route pro alfa.html
+@app.route('/alfa')
+def alfabeta():
+    return render_template('alfa.html')
 
-@app.route('/kontakt')
-def contact():
-    return render_template('contact.html')
+#nastavení route pro azbuka.html
+@app.route('/azbuka')
+def azbuka():
+    return render_template('azbuka.html')
 
+#nastavení route pro heb.html
+@app.route('/heb')
+def hebrejstina():
+    return render_template('heb.html')
 
-@app.route('/uzivatel/<username>')
-def user(username):
-    return render_template('user.html', username=username)
+#@app.route('/uzivatel/<username>')
+#def user(username):
+#    return render_template('user.html', username=username)
 
 
 # @app.route('/<a>/<b>')
