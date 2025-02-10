@@ -2,20 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %} {% endblock %} - FlaskApp</title>
+    <title>{% block title %} {% endblock %} - ukol01</title>
     <link rel="stylesheet" href="{{url_for('static',filename="css/style.css")}}">
 </head>
 <body>
 <nav class="menu">
     <ul>
         <li><a href="{{ url_for('index') }}">Domů</a></li>
-        <li><a href="{{ url_for('contact') }}">Kontakt</a></li>
-        <li><a href="{{ url_for('user', username='adam') }}">Uživatel</a></li>
+        <li><a href="{{ url_for('abc') }}">Abeceda</a></li>
+        <li><a href="{{ url_for('alfa') }}">Alfabeta</a></li>
+        <li><a href="{{ url_for('azb') }}">Azbuka</a></li>
+        <li><a href="{{ url_for('heb') }}">Hebrejština</a></li>
+
     </ul>
 </nav>
 <hr>
 <div class="content">
     {% block content %} {% endblock %}
 </div>
+<footer>
+    <hr>
+    <p>Ukol 01 - Adam Novotný</p>
+    <p>Copyright &copy; 2018</p>
+</footer>
 </body>
 </html>
