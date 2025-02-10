@@ -27,9 +27,9 @@ def azb():
 def heb():
     return render_template('heb.html')
 
-#@app.route('/uzivatel/<username>')
-#def user(username):
-#    return render_template('azb.html', username=username)
+@app.route('/<cokoliv>')
+def jine_abecedy(cokoliv):
+    return render_template('jine_abecedy.html', cokoliv=cokoliv)
 
 
 # @app.route('/<a>/<b>')
