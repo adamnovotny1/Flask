@@ -9,27 +9,27 @@ def index():
 
 #nastavení route pro abc.html
 @app.route('/abc')
-def abeceda():
+def abc():
     return render_template('abc.html')
 
 #nastavení route pro alfa.html
 @app.route('/alfa')
-def alfabeta():
+def alfa():
     return render_template('alfa.html')
 
 #nastavení route pro azbuka.html
 @app.route('/azbuka')
-def azbuka():
+def azb():
     return render_template('azbuka.html')
 
 #nastavení route pro heb.html
 @app.route('/heb')
-def hebrejstina():
+def heb():
     return render_template('heb.html')
 
 #@app.route('/uzivatel/<username>')
 #def user(username):
-#    return render_template('user.html', username=username)
+#    return render_template('azb.html', username=username)
 
 
 # @app.route('/<a>/<b>')
