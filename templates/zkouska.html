@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>
+    {% block title %}
+    Zkouska
+    {% endblock %}
+</h2>
+<main>
+    <p>Název blogu: {{blog}}</p>
+    <p>Email: {{email}}</p>
+    <p>Programovací jazyk: {{radio}}</p>
+</main>
+
+{% endblock %}

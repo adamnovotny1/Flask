@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>
+    {% block title %}
+    Formular
+    {% endblock %}
+</h2>
+<form method="post">
+
+    <label>Jméno blogu:
+        <input type="text" name="blog" placeholder="Zadejte název blogu">
+    </label>
+
+    <label>Email:
+        <input type="text" name="email">
+    </label>
+
+    <label>Flask:
+        <input type="radio" name="radio" value="Flask">
+    </label>
+
+    <label>PHP:
+        <input type="radio" name="radio" value="PHP">
+    </label>
+
+    <label>Javascript:
+        <input type="radio" name="radio" value="JavaScript">
+    </label>
+
+    <input type="submit" value="Odeslat">
+
+</form>
+{% endblock %}
