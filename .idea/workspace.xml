@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57a8b146-849e-4407-82c6-8fd6bebacc52" name="Changes" comment="Základní CSS">
-      <change afterPath="$PROJECT_DIR$/templates/link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/zkouska.html" afterDir="false" />
+    <list default="true" id="57a8b146-849e-4407-82c6-8fd6bebacc52" name="Changes" comment="Základní formulář">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/link.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/link.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zkouska.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zkouska.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738680069496</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Základní formulář">
+      <option name="closed" value="true" />
+      <created>1739783415211</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739783415211</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +236,8 @@
     <MESSAGE value="základní route" />
     <MESSAGE value="testování dynamickeho routování" />
     <MESSAGE value="Základní CSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Základní CSS" />
+    <MESSAGE value="Základní formulář" />
+    <option name="LAST_COMMIT_MESSAGE" value="Základní formulář" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Flask_hello_world$main.coverage" NAME="main Coverage Results" MODIFIED="1739782138966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

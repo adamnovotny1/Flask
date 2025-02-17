@@ -6,9 +6,17 @@
     {% endblock %}
 </h2>
 <main>
-    <p>Název blogu: {{blog}}</p>
-    <p>Email: {{email}}</p>
+    {% if radio%}
     <p>Programovací jazyk: {{radio}}</p>
+    {% endif %}
+
+    {% if username == "pokuston" and password == "heslo" %}
+    <h3>Úspešné přihlášení uživatele {{username}}</h3>
+    {% elif username == "pokuston"%}
+    <h3>Špatné heslo</h3>
+    {% else %}
+    <h3>Neplatný uživatel</h3>
+    {% endif %}
 </main>
 
 {% endblock %}
