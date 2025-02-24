@@ -14,7 +14,18 @@
         <li><a href="{{ url_for('link') }}">Formular</a></li>
     </ul>
 </nav>
-<hr>
+
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+
+    <ul>
+    {% for message in messages %}
+        <li>{{ message }}</li>
+    {% endfor %}
+    </ul>
+{% endif %}
+{% endwith %}
+
 <div class="content">
     {% block content %} {% endblock %}
 </div>
